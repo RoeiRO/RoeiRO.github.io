@@ -1,0 +1,73 @@
+body, html{
+	height: 100%; 
+	width: 100%;
+}
+
+.pic{
+	background-image:url("cascade.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 100%; 
+	width: 100%;
+	/* border: 5px solid green; */
+}
+.container, .jumbotron {
+	background: radial-gradient(rgba(255,255,255,0.8)1%, rgba(255,255,255,0)99%);
+	background-color:rgba(0,0,0,0);
+	text-align:center;
+	display: flex;
+	flex-direction: column;
+    align-items:center;
+	/* margin:0% 10% 0% 10%; */
+	padding:5%;
+	/* border: 5px solid green; */
+	border-radius: 250px;
+	position:relative;
+	top:15%;
+
+}
+.row{
+	margin:0 auto;
+	/* border: 5px solid pink; */
+	
+}
+h1{
+	font-family: 'Cousine', monospace;
+	color:#1D048E;
+}
+
+.col-sm-10{
+	color:green;
+}
+.col-xl-12{
+	color:red;
+}
+.lead{
+	color:black;
+	font-weight:800;
+}
+.lead2{
+	font-weight:600;
+	text-decoration:underline;
+}
+
+.my-4{
+	border: 1px dashed #7C296A;
+	width:50px;
+}
+.btn-lg{
+	background-color:#FF3900;
+	font-size:20px;
+	transition: background-color 1.5s ease-out, color 1.5s ease-in-out,transform 2s;
+	border: 1px solid rgba(0, 0, 0,0);
+}
+
+.btn-lg:hover{
+	background-color:rgba(255, 255, 255,0.0);
+	border: 1px solid rgba(0, 0, 0,0);
+	color:#AC0031;
+	transform: scale(1.5);
+}
+	
+
